@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "nome": "Grand Theft Auto",
+      "preco": "150",
+      "descricao": "Grand Theft Auto é uma série de jogos eletrônicos criada por David Jones e Mike Dailly, sendo posteriormente gerenciada pelos irmãos Dan e Sam Houser, Leslie Benzies e Aaron Garbut. A maioria dos jogos foi desenvolvida pela Rockstar North e publicada pela Rockstar Games. ",
+      "id": 1
+    },
+    {
+      "nome": "Tênis",
+      "preco": "260",
+      "descricao": " macio que auxilia na ventilação interna. Entressola: oferece amortecimento em cada passada. Solado: borracha resistente. ",
+      "id": 2
+    },
+    {
+      "nome": "Camiseta",
+      "preco": "100",
+      "descricao": "Nome: Camiseta Industrie Estampada Masculina\n",
+      "id": 3
+    },
+    {
+      "nome": "Gta Ps4",
+      "preco": "120",
+      "descricao": "Grand Theft Auto é uma série de jogos eletrônicos criada por David Jones e Mike Dailly, sendo posteriormente gerenciada pelos irmãos Dan e Sam Houser, Leslie Benzies e Aaron Garbut. A maioria dos jogos foi desenvolvida pela Rockstar North e publicada pela Rockstar Games ",
+      "id": 4
+    }
+  ]
+}
