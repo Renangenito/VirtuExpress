@@ -68,6 +68,15 @@ export const Secao = styled.section`
     flex-direction: column;
     justify-content: space-between;
 `
+
+export const P = styled.p`
+    max-width: 300px; /* Limite maximo do texto*/
+    white-space: nowrap; /* Removendo quebra de linha */
+    overflow: hidden; /* Removendo a barra de rolagem */
+    text-overflow: ellipsis; /* Adicionando "..." ao final do texto */
+`
+
+
 export const DivButons = styled.section`
 
 `

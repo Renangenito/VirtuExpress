@@ -41,5 +41,20 @@ export const Div = styled.div`
                     background-color: #0075b8;
                 }
         }
-
+        button{
+            {
+                text-decoration: none;
+                color: #fefefe;
+                padding: .1em;
+                background: none;
+                border: none;
+                font-weight: bold;
+                font-size: 1em;
+                    &:hover{
+                        color: #ffffff;
+                        background-color: #0075b8;
+                        cursor: pointer;
+                    }
+            }
+        }
 `

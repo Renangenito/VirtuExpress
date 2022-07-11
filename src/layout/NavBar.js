@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom'
+import { AuthContext } from '../contecxts/Auth/AuthContext';
 import { Div } from './NavBarStyles';
 
 function NavBar(){
+  const auth = useContext(AuthContext)
+
+  const handleLogout = async () =>{
+    await auth.signout();
+    window.location.href = window.location.href;
+  }
     return(
         <Div>
             <Link to='/'>
@@ -20,6 +27,9 @@ function NavBar(){
             </li>
             <li>
               <Link to='/sobre'>Sobre</Link>
+            </li>
+            <li>
+              {auth.user && <button onClick={handleLogout}>Sair</button>}
             </li>
             
           </ul>
